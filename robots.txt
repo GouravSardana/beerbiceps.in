@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://beerbiceps.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin areas (if any are added later)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow all content
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /assets/

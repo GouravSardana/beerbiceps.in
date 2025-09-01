@@ -1,0 +1,47 @@
+{
+  "name": "beerbiceps-domain-sale",
+  "version": "1.0.0",
+  "description": "Premium BeerBiceps.in domain for sale - Perfect for fitness, lifestyle, and content creation brands",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "netlify deploy --prod",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "beerbiceps.in",
+    "domain sale",
+    "fitness domain",
+    "lifestyle domain",
+    "premium domain",
+    ".in domain",
+    "digital branding",
+    "fitness brand",
+    "lifestyle brand",
+    "domain investment"
+  ],
+  "author": "Domain Owner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/beerbiceps-domain-sale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/beerbiceps-domain-sale/issues"
+  },
+  "homepage": "https://beerbiceps.in",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
