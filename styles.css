@@ -101,8 +101,10 @@ body {
 }
 
 .samay-pic {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 10px;
     display: block;
@@ -168,8 +170,8 @@ body {
     }
     
     .samay-pic {
-        width: 250px;
-        height: 250px;
+        max-width: 250px;
+        width: 100%;
     }
     
     .meme-text {
