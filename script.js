@@ -26,4 +26,41 @@ document.addEventListener('DOMContentLoaded', function() {
             letterContainer.style.transform = 'translateY(0)';
         }, 100);
     }
+
+    // Meme section animations
+    const memeSection = document.querySelector('.meme-section');
+    if (memeSection) {
+        memeSection.style.opacity = '0';
+        memeSection.style.transform = 'scale(0.9)';
+        memeSection.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+        
+        setTimeout(() => {
+            memeSection.style.opacity = '1';
+            memeSection.style.transform = 'scale(1)';
+        }, 800);
+    }
+
+    // Add click effect to meme image
+    const memeImage = document.querySelector('.meme-image');
+    if (memeImage) {
+        memeImage.addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 150);
+        });
+    }
+
+    // Add some fun text effects
+    const challengeText = document.querySelector('.challenge-text');
+    if (challengeText) {
+        challengeText.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.02)';
+            this.style.transition = 'transform 0.2s ease';
+        });
+        
+        challengeText.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+        });
+    }
 });

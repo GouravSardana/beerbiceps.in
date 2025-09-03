@@ -1,0 +1,35 @@
+SAMAY RAINA IMAGE SETUP INSTRUCTIONS
+=====================================
+
+To complete the meme setup, you need to:
+
+1. ADD THE IMAGE:
+   - Find a good quality image of Samay Raina
+   - Save it as "samay-raina.jpg" in this folder
+   - Recommended size: 300x300 pixels or larger
+   - Format: JPG, PNG, or WebP
+
+2. IMAGE SOURCES:
+   - Use a public domain image
+   - Or get permission from Samay Raina
+   - Or use a placeholder image temporarily
+
+3. ALTERNATIVE NAMES:
+   If you want to use a different filename, update the HTML:
+   - Change: <img src="samay-raina.jpg" alt="Samay Raina" class="samay-pic">
+   - To: <img src="your-image-name.jpg" alt="Samay Raina" class="samay-pic">
+
+4. FEATURES ADDED:
+   ✅ Meme section with Samay Raina image
+   ✅ Hover overlay with funny text
+   ✅ Click animations
+   ✅ Responsive design
+   ✅ Orange border styling
+   ✅ Caption below the image
+
+5. MEME TEXT:
+   "Samay Raina be like: 'BeerBiceps.in? Main to bas chess khelta hun!'"
+   
+   Caption: "When someone asks Samay about fitness domains instead of chess strategies 😂"
+
+The page is now ready with the meme section - just add the image file!
